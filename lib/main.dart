@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
+import 'pages/landing_page.dart';
 
 void main() {
 
   runApp(new MaterialApp(
-    home: new RootPage(),
+    home: new LandingPage(),
     debugShowCheckedModeBanner: true,
     theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.lightBlue,
       ),
-
   ));
 }
 
